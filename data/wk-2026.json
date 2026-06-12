@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-12T12:00:00.000Z",
+  "phaseLabel": "Groep F",
+  "routeDescription": "Deze wedstrijden gaan alleen door als Oranje zich plaatst en blijft winnen.",
+  "matches": [
+    {
+      "kickoff": "2026-06-14T20:00:00Z",
+      "endsAt": "2026-06-14T23:00:00Z",
+      "home": "Nederland",
+      "away": "Japan",
+      "homeFlag": "nl",
+      "awayFlag": "jp",
+      "city": "Dallas",
+      "country": "VS",
+      "stadium": "AT&T Stadium",
+      "label": "Groepswedstrijd 1",
+      "opponent": {
+        "name": "Japan",
+        "nickname": "Tegenstander van Oranje",
+        "flag": "jp",
+        "intro": "Japan is de volgende tegenstander van Nederland. Dit profiel kan redactioneel worden aangevuld zodra de wedstrijd is bevestigd.",
+        "qualification": { "title": "Op weg naar het WK", "stats": [], "summary": "Wedstrijdgegevens worden automatisch bijgewerkt." },
+        "players": [],
+        "culture": "",
+        "history": "",
+        "sourceLabel": "Bron: football-data.org",
+        "profileStatus": "fallback"
+      }
+    },
+    {
+      "kickoff": "2026-06-20T17:00:00Z",
+      "endsAt": "2026-06-20T20:00:00Z",
+      "home": "Nederland",
+      "away": "Zweden",
+      "homeFlag": "nl",
+      "awayFlag": "se",
+      "city": "Houston",
+      "country": "VS",
+      "stadium": "NRG Stadium",
+      "label": "Groepswedstrijd 2",
+      "opponent": {
+        "name": "Zweden",
+        "nickname": "Tegenstander van Oranje",
+        "flag": "se",
+        "intro": "Zweden is de volgende tegenstander van Nederland. Dit profiel kan redactioneel worden aangevuld zodra de wedstrijd is bevestigd.",
+        "qualification": { "title": "Op weg naar het WK", "stats": [], "summary": "Wedstrijdgegevens worden automatisch bijgewerkt." },
+        "players": [],
+        "culture": "",
+        "history": "",
+        "sourceLabel": "Bron: football-data.org",
+        "profileStatus": "fallback"
+      }
+    },
+    {
+      "kickoff": "2026-06-25T23:00:00Z",
+      "endsAt": "2026-06-26T02:00:00Z",
+      "home": "Tunesië",
+      "away": "Nederland",
+      "homeFlag": "tn",
+      "awayFlag": "nl",
+      "city": "Kansas City",
+      "country": "VS",
+      "stadium": "Arrowhead Stadium",
+      "label": "Groepswedstrijd 3",
+      "opponent": {
+        "name": "Tunesië",
+        "nickname": "Tegenstander van Oranje",
+        "flag": "tn",
+        "intro": "Tunesië is de volgende tegenstander van Nederland. Dit profiel kan redactioneel worden aangevuld zodra de wedstrijd is bevestigd.",
+        "qualification": { "title": "Op weg naar het WK", "stats": [], "summary": "Wedstrijdgegevens worden automatisch bijgewerkt." },
+        "players": [],
+        "culture": "",
+        "history": "",
+        "sourceLabel": "Bron: football-data.org",
+        "profileStatus": "fallback"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "title": "Als Nederland 1e wordt",
+      "color": "orange",
+      "games": [
+        { "round": "Laatste 32", "date": "di 30 juni", "time": "05:00", "place": "Monterrey", "opponent": "Nummer 2 groep C" },
+        { "round": "Achtste finale", "date": "za 4 juli", "time": "19:00", "place": "Houston", "opponent": "Winnaar wedstrijd 73" },
+        { "round": "Kwartfinale", "date": "do 9 juli", "time": "22:00", "place": "Foxborough", "opponent": "Nog te bepalen" },
+        { "round": "Halve finale", "date": "di 14 juli", "time": "21:00", "place": "Arlington", "opponent": "Nog te bepalen" }
+      ]
+    },
+    {
+      "title": "Als Nederland 2e wordt",
+      "color": "blue",
+      "games": [
+        { "round": "Laatste 32", "date": "ma 29 juni", "time": "19:00", "place": "Houston", "opponent": "Winnaar groep C" },
+        { "round": "Achtste finale", "date": "zo 5 juli", "time": "22:00", "place": "New York / New Jersey", "opponent": "Winnaar wedstrijd 78" },
+        { "round": "Kwartfinale", "date": "za 11 juli", "time": "23:00", "place": "Miami", "opponent": "Nog te bepalen" },
+        { "round": "Halve finale", "date": "wo 15 juli", "time": "21:00", "place": "Atlanta", "opponent": "Nog te bepalen" }
+      ]
+    }
+  ]
+}

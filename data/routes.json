@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Als Nederland 1e wordt",
+    "color": "orange",
+    "games": [
+      { "round": "Laatste 32", "date": "di 30 juni", "time": "05:00", "place": "Monterrey", "opponent": "Nummer 2 groep C" },
+      { "round": "Achtste finale", "date": "za 4 juli", "time": "19:00", "place": "Houston", "opponent": "Winnaar wedstrijd 73" },
+      { "round": "Kwartfinale", "date": "do 9 juli", "time": "22:00", "place": "Foxborough", "opponent": "Nog te bepalen" },
+      { "round": "Halve finale", "date": "di 14 juli", "time": "21:00", "place": "Arlington", "opponent": "Nog te bepalen" }
+    ]
+  },
+  {
+    "title": "Als Nederland 2e wordt",
+    "color": "blue",
+    "games": [
+      { "round": "Laatste 32", "date": "ma 29 juni", "time": "19:00", "place": "Houston", "opponent": "Winnaar groep C" },
+      { "round": "Achtste finale", "date": "zo 5 juli", "time": "22:00", "place": "New York / New Jersey", "opponent": "Winnaar wedstrijd 78" },
+      { "round": "Kwartfinale", "date": "za 11 juli", "time": "23:00", "place": "Miami", "opponent": "Nog te bepalen" },
+      { "round": "Halve finale", "date": "wo 15 juli", "time": "21:00", "place": "Atlanta", "opponent": "Nog te bepalen" }
+    ]
+  }
+]

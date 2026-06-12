@@ -1,0 +1,35 @@
+{
+  "matches": [
+    {
+      "utcDate": "2026-06-14T20:00:00Z",
+      "stage": "GROUP_STAGE",
+      "matchday": 1,
+      "venue": "AT&T Stadium",
+      "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
+      "awayTeam": { "tla": "JPN", "name": "Japan", "shortName": "Japan" }
+    },
+    {
+      "utcDate": "2026-06-20T17:00:00Z",
+      "stage": "GROUP_STAGE",
+      "matchday": 2,
+      "venue": "NRG Stadium",
+      "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
+      "awayTeam": { "tla": "SWE", "name": "Sweden", "shortName": "Sweden" }
+    },
+    {
+      "utcDate": "2026-06-25T23:00:00Z",
+      "stage": "GROUP_STAGE",
+      "matchday": 3,
+      "venue": "Arrowhead Stadium",
+      "homeTeam": { "tla": "TUN", "name": "Tunisia", "shortName": "Tunisia" },
+      "awayTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" }
+    },
+    {
+      "utcDate": "2026-06-30T03:00:00Z",
+      "stage": "LAST_32",
+      "venue": "Estadio BBVA",
+      "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
+      "awayTeam": { "tla": "BRA", "name": "Brazil", "shortName": "Brazil" }
+    }
+  ]
+}
