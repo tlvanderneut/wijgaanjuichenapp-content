@@ -8,6 +8,8 @@ const requiredText = (value) => typeof value === "string" && value.trim().length
 const validDate = (value) => requiredText(value) && Number.isFinite(new Date(value).getTime());
 
 if (data.schemaVersion !== 1 || !validDate(data.updatedAt)) throw new Error("Ongeldige schemaVersion of updatedAt.");
+const tournamentStatuses = ["active", "awaiting", "eliminated", "completed", "champion"];
+if (data.tournamentStatus && !tournamentStatuses.includes(data.tournamentStatus)) throw new Error("Ongeldige tournamentStatus.");
 if (!Array.isArray(data.matches) || data.matches.length === 0) throw new Error("Minimaal één wedstrijd is verplicht.");
 if (!Array.isArray(data.routes)) throw new Error("routes moet een lijst zijn.");
 
@@ -23,6 +25,13 @@ for (const match of data.matches) {
 for (const route of data.routes) {
   if (!requiredText(route.title) || !requiredText(route.color) || !Array.isArray(route.games) || route.games.length === 0) {
     throw new Error("Ongeldige route.");
+  }
+  const routeItems = [...route.games, ...(route.outcomes || [])];
+  for (const game of routeItems) {
+    const statuses = ["completed", "confirmed", "pending", "alternate", "eliminated", "unavailable", "champion"];
+    const fields = ["round", "date", "time", "place", "opponent"];
+    if (fields.some((field) => !requiredText(game[field]))) throw new Error(`Onvolledige ronde: ${game.round || "onbekend"}`);
+    if (game.status && !statuses.includes(game.status)) throw new Error(`Ongeldige rondestatus: ${game.status}`);
   }
 }
 

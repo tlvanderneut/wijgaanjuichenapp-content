@@ -5,6 +5,7 @@
   "scripts": {
     "update": "node scripts/update-content.mjs",
     "validate": "node scripts/validate-content.mjs data/wk-2026.json",
-    "serve": "node scripts/serve.mjs"
+    "serve": "node scripts/serve.mjs",
+    "test": "node test/test-scenarios.mjs"
   }
 }

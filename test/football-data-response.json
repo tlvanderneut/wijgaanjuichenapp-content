@@ -3,33 +3,41 @@
     {
       "utcDate": "2026-06-14T20:00:00Z",
       "stage": "GROUP_STAGE",
+      "status": "FINISHED",
       "matchday": 1,
       "venue": "AT&T Stadium",
       "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
-      "awayTeam": { "tla": "JPN", "name": "Japan", "shortName": "Japan" }
+      "awayTeam": { "tla": "JPN", "name": "Japan", "shortName": "Japan" },
+      "score": { "winner": "HOME_TEAM", "fullTime": { "home": 2, "away": 1 } }
     },
     {
       "utcDate": "2026-06-20T17:00:00Z",
       "stage": "GROUP_STAGE",
+      "status": "FINISHED",
       "matchday": 2,
       "venue": "NRG Stadium",
       "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
-      "awayTeam": { "tla": "SWE", "name": "Sweden", "shortName": "Sweden" }
+      "awayTeam": { "tla": "SWE", "name": "Sweden", "shortName": "Sweden" },
+      "score": { "winner": "HOME_TEAM", "fullTime": { "home": 1, "away": 0 } }
     },
     {
       "utcDate": "2026-06-25T23:00:00Z",
       "stage": "GROUP_STAGE",
+      "status": "FINISHED",
       "matchday": 3,
       "venue": "Arrowhead Stadium",
       "homeTeam": { "tla": "TUN", "name": "Tunisia", "shortName": "Tunisia" },
-      "awayTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" }
+      "awayTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
+      "score": { "winner": "AWAY_TEAM", "fullTime": { "home": 0, "away": 2 } }
     },
     {
       "utcDate": "2026-06-30T03:00:00Z",
       "stage": "LAST_32",
+      "status": "SCHEDULED",
       "venue": "Estadio BBVA",
       "homeTeam": { "tla": "NED", "name": "Netherlands", "shortName": "Netherlands" },
-      "awayTeam": { "tla": "BRA", "name": "Brazil", "shortName": "Brazil" }
+      "awayTeam": { "tla": "BRA", "name": "Brazil", "shortName": "Brazil" },
+      "score": { "winner": null, "fullTime": { "home": null, "away": null } }
     }
   ]
 }
