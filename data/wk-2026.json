@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-26T05:25:30.716Z",
+  "updatedAt": "2026-06-26T10:16:52.116Z",
   "phaseLabel": "Knock-outfase",
   "tournamentStatus": "active",
   "statusTitle": "Oranje is door naar de knock-outfase",
@@ -118,8 +118,14 @@
         "qualification": {
           "title": "Groep C",
           "stats": [
-            "Tweede in Groep C",
-            "Tegenstander in Match 75"
+            {
+              "value": "2e",
+              "label": "in Groep C"
+            },
+            {
+              "value": "M75",
+              "label": "tegen Nederland"
+            }
           ],
           "summary": "Marokko werd tweede in Groep C en treft groepswinnaar Nederland in de knock-outfase."
         },

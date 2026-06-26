@@ -5,6 +5,7 @@ if (!file) throw new Error("Geef een JSON-bestand op.");
 
 const data = JSON.parse(await readFile(file, "utf8"));
 const requiredText = (value) => typeof value === "string" && value.trim().length > 0;
+const optionalText = (value) => value === undefined || value === null || value === "" || requiredText(value);
 const validDate = (value) => requiredText(value) && Number.isFinite(new Date(value).getTime());
 
 if (data.schemaVersion !== 1 || !validDate(data.updatedAt)) throw new Error("Ongeldige schemaVersion of updatedAt.");
@@ -19,6 +20,21 @@ for (const match of data.matches) {
   if (fields.some((field) => !requiredText(match[field]))) throw new Error(`Onvolledige wedstrijd: ${match.label || "onbekend"}`);
   if (!match.opponent || !requiredText(match.opponent.name) || !requiredText(match.opponent.intro)) {
     throw new Error(`Tegenstanderprofiel ontbreekt: ${match.label}`);
+  }
+  const stats = match.opponent.qualification?.stats;
+  if (!Array.isArray(stats) || !stats.every((stat) => (
+    stat && requiredText(String(stat.value)) && requiredText(stat.label)
+  ))) {
+    throw new Error(`Ongeldige tegenstanderstatistieken: ${match.label}`);
+  }
+  const players = match.opponent.players || [];
+  if (!Array.isArray(players) || !players.every((player) => (
+    player && requiredText(player.name) && requiredText(player.detail)
+  ))) {
+    throw new Error(`Ongeldige spelerslijst: ${match.label}`);
+  }
+  if (!optionalText(match.opponent.culture) || !optionalText(match.opponent.history)) {
+    throw new Error(`Ongeldige tegenstandertekst: ${match.label}`);
   }
 }
 
