@@ -101,7 +101,8 @@ async function runScenario(name, matches, verify) {
     env: {
       ...process.env,
       FOOTBALL_DATA_FIXTURE: fixture,
-      CONTENT_OUTPUT: output
+      CONTENT_OUTPUT: output,
+      IGNORE_MANUAL_OVERRIDES: "true"
     }
   });
   if (run.status !== 0) throw new Error(`${name}: ${run.stderr || run.stdout}`);

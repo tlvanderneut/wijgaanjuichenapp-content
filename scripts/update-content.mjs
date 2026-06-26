@@ -10,6 +10,7 @@ const readJson = async (path) => JSON.parse(await readFile(path, "utf8"));
 const routeTemplates = await readJson("data/routes.json");
 const editorial = await readJson("data/editorial.json");
 const manual = await readJson("data/manual-overrides.json");
+const manualEnabled = manual.enabled && process.env.IGNORE_MANUAL_OVERRIDES !== "true";
 
 let payload;
 if (fixture) {
@@ -274,7 +275,7 @@ const generated = {
   routes
 };
 
-const output = manual.enabled ? {
+const output = manualEnabled ? {
   ...generated,
   phaseLabel: manual.phaseLabel || generated.phaseLabel,
   tournamentStatus: manual.tournamentStatus || generated.tournamentStatus,

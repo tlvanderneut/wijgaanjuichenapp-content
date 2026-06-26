@@ -1,3 +1,23 @@
 {
-  "profiles": {}
+  "profiles": {
+    "MAR": {
+      "name": "Marokko",
+      "nickname": "De Leeuwen van de Atlas",
+      "flag": "ma",
+      "intro": "Marokko is de volgende tegenstander van Nederland in de laatste 32. De wedstrijd wordt gespeeld in Monterrey.",
+      "qualification": {
+        "title": "Groep C",
+        "stats": [
+          "Tweede in Groep C",
+          "Tegenstander in Match 75"
+        ],
+        "summary": "Marokko werd tweede in Groep C en treft groepswinnaar Nederland in de knock-outfase."
+      },
+      "players": [],
+      "culture": "Marokko kan rekenen op veel fanatieke steun en is voor veel Nederlandse supporters een bijzondere tegenstander.",
+      "history": "Nederland en Marokko troffen elkaar eerder op een WK in 1994. Nederland won toen met 2-1.",
+      "sourceLabel": "Bron: actuele WK-route",
+      "profileStatus": "editorial"
+    }
+  }
 }
