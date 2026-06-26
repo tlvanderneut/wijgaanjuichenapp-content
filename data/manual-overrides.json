@@ -122,13 +122,26 @@
               "label": "in Groep C"
             },
             {
-              "value": "M75",
-              "label": "tegen Nederland"
+              "value": "Laatste 32",
+              "label": "tegen Oranje"
             }
           ],
           "summary": "Marokko werd tweede in Groep C en treft groepswinnaar Nederland in de knock-outfase."
         },
-        "players": [],
+        "players": [
+          {
+            "name": "Achraf Hakimi",
+            "detail": "Aanvoerder en snelle rechtsback die met zijn loopacties, voorzetten en schot veel gevaar brengt."
+          },
+          {
+            "name": "Brahim Diaz",
+            "detail": "Creatieve aanvaller die tussen de linies ruimte zoekt en met een actie of pass een wedstrijd kan openbreken."
+          },
+          {
+            "name": "Yassine Bounou",
+            "detail": "Ervaren doelman met sterke reflexen en veel rust in grote wedstrijden."
+          }
+        ],
         "culture": "Marokko kan rekenen op veel fanatieke steun en is voor veel Nederlandse supporters een bijzondere tegenstander.",
         "history": "Nederland en Marokko troffen elkaar eerder op een WK in 1994. Nederland won toen met 2-1.",
         "sourceLabel": "Bron: actuele WK-route",
