@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-26T10:24:26.366Z",
-  "phaseLabel": "Knock-outfase",
-  "tournamentStatus": "active",
-  "statusTitle": "Oranje is door naar de knock-outfase",
-  "statusMessage": "Nederland won Groep F en speelt in de laatste 32 tegen Marokko.",
-  "routeDescription": "Nederland speelt in de laatste 32 tegen Marokko. Bij winst volgt de winnaar van Canada - Zuid-Afrika in Houston.",
+  "updatedAt": "2026-06-30T05:13:44.059Z",
+  "phaseLabel": "Eindstand Oranje",
+  "tournamentStatus": "eliminated",
+  "statusTitle": "Oranje is uitgeschakeld",
+  "statusMessage": "Nederland verloor in de laatste 32 na strafschoppen van Marokko.",
+  "routeDescription": "De Oranje Route eindigde in de laatste 32: 1-1 na verlenging, Marokko won 3-2 na strafschoppen.",
   "matches": [
     {
       "kickoff": "2026-06-14T20:00:00Z",
@@ -108,26 +108,26 @@
       "country": "Mexico",
       "stadium": "Estadio BBVA",
       "label": "Laatste 32",
-      "matchStatus": "confirmed",
-      "result": "",
+      "matchStatus": "completed",
+      "result": "1-1, Marokko w.n.s. 3-2",
       "opponent": {
         "name": "Marokko",
         "nickname": "De Leeuwen van de Atlas",
         "flag": "ma",
-        "intro": "Marokko is de volgende tegenstander van Nederland in de laatste 32. De wedstrijd wordt gespeeld in Monterrey.",
+        "intro": "Nederland speelde gelijk tegen Marokko, maar verloor de strafschoppenserie.",
         "qualification": {
-          "title": "Groep C",
+          "title": "Laatste 32",
           "stats": [
             {
-              "value": "2e",
-              "label": "in Groep C"
+              "value": "1-1",
+              "label": "na verlenging"
             },
             {
-              "value": "Laatste 32",
-              "label": "tegen Oranje"
+              "value": "3-2",
+              "label": "strafschoppen"
             }
           ],
-          "summary": "Marokko werd tweede in Groep C en treft groepswinnaar Nederland in de knock-outfase."
+          "summary": "Marokko bereikte de achtste finale; het WK van Oranje is afgelopen."
         },
         "players": [
           {
@@ -143,16 +143,16 @@
             "detail": "Ervaren doelman met sterke reflexen en veel rust in grote wedstrijden."
           }
         ],
-        "culture": "Marokko kan rekenen op veel fanatieke steun en is voor veel Nederlandse supporters een bijzondere tegenstander.",
+        "culture": "Marokko kan rekenen op veel fanatieke steun en bereikte na strafschoppen de volgende ronde.",
         "history": "Nederland en Marokko troffen elkaar eerder op een WK in 1994. Nederland won toen met 2-1.",
-        "sourceLabel": "Bron: actuele WK-route",
+        "sourceLabel": "Bron: actuele WK-uitslagen",
         "profileStatus": "editorial"
       }
     }
   ],
   "routes": [
     {
-      "title": "De route van Nederland",
+      "title": "Eindpunt van Oranje",
       "color": "orange",
       "games": [
         {
@@ -161,51 +161,11 @@
           "time": "03:00",
           "place": "Monterrey",
           "opponent": "Marokko",
-          "status": "confirmed"
-        },
-        {
-          "round": "Achtste finale",
-          "date": "za 4 juli",
-          "time": "19:00",
-          "place": "Houston",
-          "opponent": "Winnaar Canada - Zuid-Afrika",
-          "status": "pending"
-        },
-        {
-          "round": "Kwartfinale",
-          "date": "do 9 juli",
-          "time": "22:00",
-          "place": "Foxborough",
-          "opponent": "Winnaar wedstrijd 89",
-          "status": "pending"
-        },
-        {
-          "round": "Halve finale",
-          "date": "di 14 juli",
-          "time": "21:00",
-          "place": "Arlington",
-          "opponent": "Winnaar wedstrijd 98",
-          "status": "pending"
+          "status": "eliminated",
+          "result": "1-1, Marokko w.n.s. 3-2"
         }
       ],
-      "outcomes": [
-        {
-          "round": "Finale",
-          "date": "zo 19 juli",
-          "time": "21:00",
-          "place": "New York / New Jersey",
-          "opponent": "Bij winst in de halve finale",
-          "status": "alternate"
-        },
-        {
-          "round": "Troostfinale",
-          "date": "za 18 juli",
-          "time": "23:00",
-          "place": "Miami",
-          "opponent": "Bij verlies in de halve finale",
-          "status": "alternate"
-        }
-      ]
+      "outcomes": []
     }
   ]
 }
